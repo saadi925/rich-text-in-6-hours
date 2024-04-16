@@ -5,14 +5,29 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/editor/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#212134",
+        secondary: "#3317E4",
+        light_surface: "#D00000",
+        light: "#fff",
+        dark: "#121212",
+        icon: "#3676FF",
+        text: "#ffffff",
+        divider: "",
+        surface: "#01d676",
+        background: "#121212",
       },
+      
+            
+      fontFamily: {
+        robo: ["Roboto", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+
     },
   },
   plugins: [],
